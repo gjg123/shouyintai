@@ -1,0 +1,101 @@
+	/* 收款 */
+	#hiddenInp{
+		visibility: hidden;
+	}
+	.weibu{
+		height:50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding:0 19px;
+		box-sizing: border-box;
+	}
+	.spanBox{
+		width:100%;
+	}
+	.spanBox li{
+		
+		width:100%;
+	}
+	.rcenter{
+		border-top:0;
+	}
+	.leftSpan{
+		border:1px solid #ccc;
+		box-sizing: border-box;
+		display: inline-block;
+		width:50%;
+		height:40px;
+		text-align: center;
+		line-height: 40px;
+	}
+	.centerSpan{
+		
+		border-bottom: none;
+	}
+	.inpK:focus{
+		border:1px solid blue;
+	}
+	.inpK{
+		width:80%;
+		border-radius: 5px;
+		padding-left: 5px;
+		box-sizing: border-box;
+		height:25px;
+		border:1px solid #ccc;
+		outline: none;
+	}
+	.rightSpan{
+		border:1px solid #ccc;
+		box-sizing: border-box;
+		display: inline-block;
+		width:48%;
+		height:40px;
+		text-align: center;
+		line-height: 40px;
+	}
+	.paymentMethod{
+		padding: 0px 0;
+		margin-bottom:20px
+	}
+	.aBox{
+		
+		margin-top:20px;
+		padding:0 20px;
+		
+	} 
+	.inp{
+		display: inline-block;
+		width:10px;
+	}
+ 	
+	.z{
+		width:100%;
+		padding: 20px 0;
+		box-sizing: border-box;
+		border-bottom: 1px solid #000;
+	}
+	.tBox .el-input {
+	    position: relative;
+	    font-size: 14px;
+	    display: inline-block;
+	    width: 60%;
+	    margin-right:20px;
+	}
+	.allMoney{
+		width:100%;
+		text-align: center;
+		margin:20px 0;
+	}
+	.sucessImg{
+		width:100%;
+		padding: 20px 0;
+		border-bottom: 1px solid #000;
+	}
+	.sucessWrapper{
+		width:100%;
+	}
+	.ce{
+		width:100%;
+		text-align: center;
+	}

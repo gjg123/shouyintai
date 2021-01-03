@@ -1,0 +1,228 @@
+	.home .content .taball .el-table td{
+		border-bottom: 1px solid #000 !important;
+	}
+	.home .content .taball .el-table td, .el-table th.is-leaf {
+		border-bottom: 1px solid #000;
+	}
+	.tabWrapper{
+		position: absolute;
+		background: #fff;
+		
+	}
+	.footer{
+		position: absolute;
+		
+		width: 80%;
+		height: 20%;
+		/*margin-bottom: 20px;*/
+	}
+	.home{
+		
+		height:100%;	
+		overflow: hidden;
+		/*overflow: auto;	*/
+	}
+	.content{
+		
+		height:80%;
+		border-right: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+		background: #fff;
+		z-index: 2000;
+		
+		box-sizing: border-box;
+	
+	}
+	
+	.tabWrapper tr{
+		
+		
+	}
+	.tabWrapper tr td{
+		width:138px;
+		text-align: center;
+		line-height: 48px;
+		height: 48px;
+		border:1xp solid #000;
+		box-sizing: border-box;
+	}
+	.tabWrapper .first{
+		width:5.2%;
+		height: 48px;
+		box-sizing: border-box;
+	}
+
+	.content .taball{	
+		height: 688px !important;/* 此处最好做响应式,暂时还没做 */
+		overflow-y: auto;
+		
+	}
+	.bottomCenter{
+		width:100%;
+		/*position: absolute;
+		bottom:5%;*/
+	}
+	.deletBox button{
+		/* background: red;
+		color:#fff; */
+	}
+	.deletBox{
+		width:100%;
+		text-align: right;
+	}
+	.cen{
+		width:100%;
+		
+		display: inline-block;
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+	}
+	.searchFormBox{
+		padding: 20px 30px 50px;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	.weibu{
+		height:40px;
+		width:100%;
+		
+		display: flex;
+		align-items: center;
+		background: #fff;
+		border: 1px solid #ccc;
+		border-bottom: none;
+	}
+	.weibu{
+		height:50px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding:0 19px;
+		box-sizing: border-box;
+	}
+	.bot{
+		border: 1px solid #ccc;
+		background: #fff;
+		padding: 20px;
+		width:100%;
+		box-sizing: border-box;
+		display: flex;
+		
+		justify-content: space-around;
+		align-items: center;
+	}
+	.inpWrapper{
+		padding: 0px;
+		height:100px;
+		width:30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.search{
+		margin-bottom: 20px;
+		
+		
+	}
+	.search,.sy{
+		height:40px;
+		width:100%;
+		padding-left:10px;
+		box-sizing: border-box;
+		border:1px solid #000;
+		
+	}
+	
+	.yinzi{
+		cursor: pointer;
+		background: #0cec0d;
+		width:100%;
+		height:100%;
+		color:#fff;
+		display: flex;
+		font-size: 30px;
+		font-weight: bold;
+		justify-content: center;
+		align-items: center;
+	}
+	.searchBox,.syBox{
+		width:100%;
+		position: relative;
+	}
+	.imgjp,.syjp{
+		cursor: pointer;
+		position: absolute;
+		top:5px;
+		right:5px;
+		width:35px;
+		height:30px;
+	}
+	
+	.phoneBox{
+		padding: 0px;
+		height:100px;
+		width:30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border:1px solid #000;
+	}
+	.phoneWrapper{
+		position: relative;
+		height:50%;
+		width:100%;
+		box-sizing: border-box;
+		border-bottom: 1px solid #000;
+	}
+	.phoneImg{
+		cursor: pointer;
+		position: absolute;
+		top:10px;
+		right:10px;
+		width:35px;
+		height:30px;
+	}
+	.user{
+		width:100%;
+		height:50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.phone{
+		padding-left: 10px;
+		box-sizing: border-box;
+		width:100%;
+		height:100%;
+		border:none;
+		outline: none;
+	}
+	.username,.yue,.jifen{
+		width:33.33%;
+		height:100%;
+	}
+	.username ul li,.yue ul li,.jifen ul li{
+		height:25px;
+		line-height: 25px;
+		text-align: center;
+	}
+	.yue{
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+	}
+	.selectBox{
+		padding: 50px;
+	
+		box-sizing: border-box;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.selectBox #inpSearch{
+		width: 10px;
+		
+		height: 40px;
+		
+	}
